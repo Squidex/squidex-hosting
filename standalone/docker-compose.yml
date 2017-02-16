@@ -1,0 +1,45 @@
+version: '2.1'
+services:
+  squidex_redis:
+    image: redis:alpine
+    ports: 
+      - "6379:6379"
+    labels:
+      NAME: "squidex_redis"
+  squidex_mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    labels:
+      NAME: "squidex_mongo"
+  squidex_squidex:
+    image: "squidex/squidex:latest"
+    ports:
+      - "5000:80"
+    environment:
+      - "SQUIDEX__URLS__BASEURL=${SQUIDEX_BASE_URL}"
+      - "SQUIDEX__CLUSTERER__TYPE=redis"
+      - "SQUIDEX__CLUSTERER__REDIS__CONNECTIONSTRING=squidex_redis:6379,resolveDns=1"
+      - "SQUIDEX__EVENTSTORE__TYPE=mongoDb"
+      - "SQUIDEX__EVENTSTORE__MONGODB__CONNECTIONSTRING=mongodb://squidex_mongo"
+      - "SQUIDEX__STORED__TYPE=mongoDb"
+      - "SQUIDEX__STORES__MONGODB__CONNECTIONSTRING=mongodb://squidex_mongo"
+      - "VIRTUAL_HOST=${SQUIDEX_DOMAIN}"
+    depends_on:
+      squidex_redis:
+        condition: service_started
+      squidex_mongo:
+        condition: service_started
+    labels:
+      NAME: "squidex_squidex"
+    restart: "always"
+  squidex_proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro    
+    depends_on:
+      - "squidex_squidex"
+    labels:
+      NAME: "squidex_proxy"

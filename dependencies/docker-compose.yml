@@ -1,0 +1,14 @@
+version: '2.1'
+services:
+  squidex_redis:
+    image: redis:alpine
+    ports: 
+      - "6379:6379"
+    labels:
+      NAME: "squidex_redis"
+  squidex_mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    labels:
+      NAME: "squidex_mongo"
