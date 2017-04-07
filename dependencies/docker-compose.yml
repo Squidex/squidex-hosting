@@ -1,14 +1,73 @@
 version: '2.1'
 services:
+  squidex_elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.2.2
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+
+      xpack.security.enabled: "false"
+      xpack.monitoring.enabled: "false"
+      xpack.graph.enabled: "false"
+      xpack.watcher.enabled: "false"
+      http.cors.enabled: "true"
+      http.cors.allow-origin: "*"
+    networks:
+      - squidex_network
+
+  squidex_fluentd:
+    build: fluentd/
+    volumes:
+      - ./fluentd/config/:/fluentd/etc
+      - //d/logs/:/fluentd/logs
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+    environment:
+      FLUENTD_CONF: "fluentd.conf"
+    networks:
+      - squidex_network
+    depends_on:
+      - squidex_elasticsearch
+      
+  squidex_elasticsearch_head:
+    image: mobz/elasticsearch-head:5
+    ports:
+      - "9100:9100"
+    networks:
+      - squidex_network
+    depends_on:
+      - squidex_elasticsearch
+      
+  squidex_kibana:
+    image: docker.elastic.co/kibana/kibana:5.2.2
+    volumes:
+      - ./kibana/config/:/usr/share/kibana/config
+    ports:
+      - "5601:5601"
+    networks:
+      - squidex_network
+    depends_on:
+      - squidex_elasticsearch
+
+  squidex_rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+
   squidex_redis:
     image: redis:alpine
     ports: 
       - "6379:6379"
-    labels:
-      NAME: "squidex_redis"
+
   squidex_mongo:
     image: mongo:latest
     ports:
       - "27017:27017"
-    labels:
-      NAME: "squidex_mongo"
+
+networks:
+  squidex_network:
+    driver: bridge
