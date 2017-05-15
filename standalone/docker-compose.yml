@@ -18,6 +18,7 @@ services:
       - "5000:80"
     environment:
       - "URLS__BASEURL=${SQUIDEX_BASE_URL}"
+      - "URLS__ENFORCEHTTPS=${SQUIDEX_ENFORCE_HTTPS}"
       - "EVENTSTORE__CONSUME=true"
       - "EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo"
       - "PUBSUB__TYPE=redis"
@@ -25,6 +26,8 @@ services:
       - "STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo"
       - "IDENTITY__KEYSSTORE__TYPE=redis"
       - "IDENTITY__KEYSSTORE__REDIS__CONFIGURATION=squidex_redis:6379,resolveDns=true"
+      - "IDENTITY__GOOGLECLIENT=${SQUIDEX_GOOGLE_CLIENT}"
+      - "IDENTITY__GOOGLESECRET=${SQUIDEX_GOOGLE_SECRET}"
       - "VIRTUAL_HOST=${SQUIDEX_DOMAIN}"
     depends_on:
       squidex_redis:
