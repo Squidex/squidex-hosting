@@ -37,6 +37,7 @@ services:
       - squidex_mongo
     volumes:
       - /etc/squidex/keys
+      - /etc/squidex/assets:app/Assets
     networks:
       - internal
     restart: unless-stopped
