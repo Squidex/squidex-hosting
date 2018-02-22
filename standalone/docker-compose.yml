@@ -5,7 +5,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - /var/mongo/db:/data/db
+      - /etc/squidex/mongo/db:/data/db
     networks:
       - internal
     restart: unless-stopped
@@ -20,8 +20,6 @@ services:
       - EVENTSTORE__CONSUME=true
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
-      - IDENTITY__KEYSSTORE__TYPE=Folder
-      - IDENTITY__KEYSSTORE__FOLDER=/etc/squidex/keys
       - IDENTITY__ADMINEMAIL=${SQUIDEX_ADMINEMAIL}
       - IDENTITY__ADMINPASSWORD=${SQUIDEX_ADMINPASSWORD}
       - IDENTITY__GITHUBCLIENT=
@@ -36,7 +34,6 @@ services:
     depends_on:
       - squidex_mongo
     volumes:
-      - /etc/squidex/keys
       - /etc/squidex/assets:app/Assets
     networks:
       - internal
@@ -48,9 +45,9 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - /etc/nginx/vhost.d
-      - /etc/nginx/certs:/etc/nginx/certs:ro
-      - /usr/share/nginx/html
+      - /etc/squidex/nginx/vhost.d:/etc/nginx/vhost.d
+      - /etc/squidex/nginx/certs:/etc/nginx/certs:ro
+      - /etc/squidex/nginx/html:/usr/share/nginx/html
       - /var/run/docker.sock:/tmp/docker.sock:ro
     depends_on:
       - squidex_squidex
@@ -62,7 +59,7 @@ services:
   squidex_encrypt:
     image: jrcs/letsencrypt-nginx-proxy-companion
     volumes:
-      - /etc/nginx/certs:/etc/nginx/certs:rw
+      - /etc/squidex/nginx/certs:/etc/nginx/certs:rw
       - /var/run/docker.sock:/var/run/docker.sock:ro
     volumes_from:
       - squidex_proxy
