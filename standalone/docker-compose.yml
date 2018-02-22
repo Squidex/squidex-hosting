@@ -34,7 +34,7 @@ services:
     depends_on:
       - squidex_mongo
     volumes:
-      - /etc/squidex/assets:app/Assets
+      - /etc/squidex/assets:/app/Assets
     networks:
       - internal
     restart: unless-stopped
