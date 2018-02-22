@@ -13,7 +13,7 @@ services:
   squidex_squidex:
     image: "squidex/squidex:dev"
     ports:
-      - "5000:80"
+      - "80:80"
     environment:
       - URLS__BASEURL=${SQUIDEX_PROTOCOL}://${SQUIDEX_DOMAIN}/
       - URLS__ENFORCEHTTPS=${SQUIDEX_FORCE_HTTPS}
@@ -30,41 +30,10 @@ services:
       - IDENTITY__MICROSOFTSECRET=
       - LETSENCRYPT_HOST=${SQUIDEX_DOMAIN}
       - LETSENCRYPT_EMAIL=${SQUIDEX_ADMINEMAIL}
-      - VIRTUAL_HOST=${SQUIDEX_DOMAIN}
     depends_on:
       - squidex_mongo
     volumes:
       - /etc/squidex/assets:/app/Assets
-    networks:
-      - internal
-    restart: unless-stopped
-
-  squidex_proxy:
-    image: jwilder/nginx-proxy
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - /etc/squidex/nginx/vhost.d:/etc/nginx/vhost.d
-      - /etc/squidex/nginx/certs:/etc/nginx/certs:ro
-      - /etc/squidex/nginx/html:/usr/share/nginx/html
-      - /var/run/docker.sock:/tmp/docker.sock:ro
-    depends_on:
-      - squidex_squidex
-    networks:
-      - internal
-    labels:
-      - com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy
-
-  squidex_encrypt:
-    image: jrcs/letsencrypt-nginx-proxy-companion
-    volumes:
-      - /etc/squidex/nginx/certs:/etc/nginx/certs:rw
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    volumes_from:
-      - squidex_proxy
-    depends_on:
-      - squidex_proxy
     networks:
       - internal
     restart: unless-stopped
