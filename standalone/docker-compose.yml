@@ -15,8 +15,8 @@ services:
     ports:
       - "5000:80"
     environment:
-      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}/
-      - URLS__ENFORCEHTTPS=True
+      - URLS__BASEURL=${SQUIDEX_PROTOCOL}://${SQUIDEX_DOMAIN}/
+      - URLS__ENFORCEHTTPS=${SQUIDEX_FORCE_HTTPS}
       - EVENTSTORE__CONSUME=true
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo

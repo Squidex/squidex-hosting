@@ -15,8 +15,8 @@ services:
     ports:
       - "80:80"
     environment:
-      - URLS__BASEURL=http://${SQUIDEX_DOMAIN}/
-      - URLS__ENFORCEHTTPS=False
+      - URLS__BASEURL=${SQUIDEX_PROTOCOL}://${SQUIDEX_DOMAIN}/
+      - URLS__ENFORCEHTTPS=${SQUIDEX_FORCE_HTTPS}
       - EVENTSTORE__CONSUME=true
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
@@ -30,7 +30,6 @@ services:
       - IDENTITY__MICROSOFTSECRET=
       - LETSENCRYPT_HOST=${SQUIDEX_DOMAIN}
       - LETSENCRYPT_EMAIL=${SQUIDEX_ADMINEMAIL}
-      - VIRTUAL_HOST=${SQUIDEX_DOMAIN}
     depends_on:
       - squidex_mongo
     volumes:
