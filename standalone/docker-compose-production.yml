@@ -2,8 +2,6 @@ version: '2.1'
 services:
   squidex_mongo:
     image: mongo:latest
-    ports:
-      - "27017:27017"
     volumes:
       - /etc/squidex/mongo/db:/data/db
     networks:
