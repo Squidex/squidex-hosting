@@ -1,0 +1,77 @@
+#	Copyright 2016, Google, Inc.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http:#www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: squidex
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: squidex
+    spec:
+      containers:
+        - name: squidex
+          image: squidex/squidex3:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          env:
+            - name: URLS__BASEURL
+              value: "YOUR_URL"
+            - name: URLS__ENFORCEHTTPS
+              value: "true"
+            - name: ASSETSTORE__TYPE
+              value: YOUR_CONFIG
+            - name: LOGGING__HUMAN
+              value: "false"
+            - name: EVENTSTORE__MONGODB__CONFIGURATION
+              value: "mongodb://mongo-0.mongo,mongo-1.mongo,mongo-2.mongo:27017/"
+            - name: EVENTSTORE__MONGODB__DATABASE
+              value: "Squidex"
+            - name: STORE__MONGODB__CONFIGURATION
+              value: "mongodb://mongo-0.mongo,mongo-1.mongo,mongo-2.mongo:27017/"
+            - name: STORE__MONGODB__DATABASE
+              value: "Squidex"
+            - name: STORE__MONGODB__CONTENTDATABASE
+              value: "SquidexContent"
+            - name: IDENTITY__GOOGLECLIENT
+              value: "YOUR_CONFIG"
+            - name: IDENTITY__GOOGLESECRET
+              value: "YOUR_CONFIG"
+            - name: IDENTITY__MICROSOFTCLIENT
+              value: "YOUR_CONFIG"
+            - name: IDENTITY__MICROSOFTSECRET
+              value: "YOUR_CONFIG"
+            - name: IDENTITY__ALLOWPASSWORDAUTH
+              value: "false"
+            - name: IDENTITY__LOCKAUTOMATICALLY
+              value: "false"
+      terminationGracePeriodSeconds: 60
+  revisionHistoryLimit: 2
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: squidex
+  labels:
+    name: squidex
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    app: squidex
+  type: LoadBalancer
