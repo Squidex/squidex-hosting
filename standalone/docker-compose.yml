@@ -38,7 +38,7 @@ services:
     restart: unless-stopped
 
   squidex_proxy:
-    image: jwilder/nginx-proxy
+    image: squidex/nginx-proxy
     ports:
       - "80:80"
       - "443:443"
