@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: squidex
-          image: squidex/squidex3:latest
+          image: squidex/squidex:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
