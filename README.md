@@ -1,4 +1,6 @@
-# Squidex Docker
+![Squidex Logo](https://raw.githubusercontent.com/Squidex/squidex/master/media/logo-wide.png "Squidex")
+
+# Squidex Samples
 
 Docker Definitions for Squidex
 
