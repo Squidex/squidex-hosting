@@ -10,7 +10,7 @@ selectors:
   version: ""
 image:
   repository: squidex/squidex
-  tag: latest
+  tag: 3.3.0
   pullPolicy: IfNotPresent
 
 resources: {}
