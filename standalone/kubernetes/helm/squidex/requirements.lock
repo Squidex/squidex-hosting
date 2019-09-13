@@ -1,0 +1,9 @@
+dependencies:
+- name: mongodb-replicaset
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 3.9.6
+- name: eventstore
+  repository: https://eventstore.github.io/EventStore.Charts
+  version: 0.2.5
+digest: sha256:216b5994dac9d4e907a3405db2c4f5fb95146ba64a2d0e1695c5a0a9ff5a0b3e
+generated: "2019-09-10T15:37:41.8908886-04:00"
