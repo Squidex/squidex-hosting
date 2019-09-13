@@ -32,15 +32,15 @@ ingress:
   #      - chart-example.local
 
 env:
-  URLS__BASEURL: http://squidex.local/
+  URLS__BASEURL: null
   URLS__ENFORCEHTTPS: false
   EVENTSTORE__CONSUME: true
   EVENTSTORE__TYPE: MongoDb
-  IDENTITY__ADMINEMAIL: admin@example.com
-  IDENTITY__ADMINPASSWORD: Abc12345!)
+  IDENTITY__ADMINEMAIL: null
+  IDENTITY__ADMINPASSWORD: null
   IDENTITY__SHOWPII: true
-  LETSENCRYPT_HOST: http://squidex.local/
-  LETSENCRYPT_EMAIL: admin@example.com
+  LETSENCRYPT_HOST: null
+  LETSENCRYPT_EMAIL: null
   LOGGING__HUMAN: "false"
   EVENTSTORE__MONGODB__DATABASE: "Squidex"
   STORE__MONGODB__DATABASE: "Squidex"
