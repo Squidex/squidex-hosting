@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  squidex:
+  - apiVersion: v1
+    appVersion: 3.3.0
+    created: "2019-09-16T11:20:11.418479-04:00"
+    description: Squidex CMS
+    digest: 04e4bbec3bbfc649d93c0b50a72de13fbe34abdb388fd18bea4cc2ec341308c7
+    icon: https://raw.githubusercontent.com/Squidex/squidex/master/media/logo-squared.png
+    name: squidex
+    urls:
+    - https://squidex.github.io/squidex-docker/squidex-1.0.0.tgz
+    version: 1.0.0
+generated: "2019-09-16T11:20:11.4149995-04:00"
