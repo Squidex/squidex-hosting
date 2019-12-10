@@ -1,0 +1,29 @@
+version: '2.1'
+services:
+  squidex_mongo:
+    image: mongo:latest
+    volumes:
+      - /etc/squidex/mongo/db:/data/db
+    networks:
+      - internal
+    restart: unless-stopped
+
+  squidex_squidex:
+    image: "squidex/squidex:dev"
+    ports:
+      - "5000:80"
+    environment:
+      - URLS__BASEURL=http://localhost:5000
+      - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
+      - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
+    depends_on:
+      - squidex_mongo
+    volumes:
+      - /etc/squidex/assets:/app/Assets
+    networks:
+      - internal
+    restart: unless-stopped
+    
+networks:
+  internal:
+    driver: bridge
