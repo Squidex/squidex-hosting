@@ -2,8 +2,6 @@ version: '2.1'
 services:
   squidex_mongo:
     image: mongo:latest
-    ports:
-      - "27017:27017"
     volumes:
       - /etc/squidex/mongo/db:/data/db
     networks:
@@ -54,6 +52,7 @@ services:
       - internal
     labels:
       - com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy
+    restart: unless-stopped
 
   squidex_encrypt:
     image: jrcs/letsencrypt-nginx-proxy-companion
