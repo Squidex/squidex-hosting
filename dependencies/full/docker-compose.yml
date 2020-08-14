@@ -1,56 +1,17 @@
 version: '2.1'
 services:
   squidex_elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:5.2.2
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.5.2
     ports:
       - "9200:9200"
       - "9300:9300"
     environment:
       ES_JAVA_OPTS: "-Xmx256m -Xms256m"
-      xpack.security.enabled: "false"
-      xpack.monitoring.enabled: "false"
-      xpack.graph.enabled: "false"
-      xpack.watcher.enabled: "false"
+      discovery.type: single-node
       http.cors.enabled: "true"
       http.cors.allow-origin: "*"
     networks:
       - squidex_network
-    restart: always
-      
-  squidex_elasticsearch_head:
-    image: mobz/elasticsearch-head:5
-    ports:
-      - "9100:9100"
-    networks:
-      - squidex_network
-    depends_on:
-      - squidex_elasticsearch
-    restart: always
-
-  squidex_rabbitmq:
-    image: rabbitmq:3-management
-    ports:
-      - "15672:15672"
-      - "5672:5672"
-    restart: always
-
-  squidex_redis:
-    image: redis:alpine
-    ports: 
-      - "6379:6379"
-    restart: always
-
-  squidex_mongo:
-    image: mongo:latest
-    ports:
-      - "27017:27017"
-    restart: always
-    
-  squidex_eventstore:
-    image: eventstore/eventstore
-    ports:
-      - "2113:2113"
-      - "1113:1113"
     restart: always
 
 networks:
