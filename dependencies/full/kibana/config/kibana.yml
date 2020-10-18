@@ -1,9 +1,0 @@
-server.name: kibana
-server.host: "0"
-
-elasticsearch.url: http://squidex_elasticsearch:9200
-
-xpack.security.enabled: false
-xpack.monitoring.enabled: false
-xpack.graph.enabled: false
-xpack.reporting.enabled: false
