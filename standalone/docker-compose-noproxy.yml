@@ -1,7 +1,7 @@
-version: '2.1'
+version: '2.3'
 services:
   squidex_mongo:
-    image: mongo:latest
+    image: mongo:4.4.1
     volumes:
       - /etc/squidex/mongo/db:/data/db
     networks:
@@ -9,12 +9,12 @@ services:
     restart: unless-stopped
 
   squidex_squidex:
-    image: "squidex/squidex:latest"
+    image: "squidex/squidex:5"
     ports:
       - "80:80"
     environment:
-      - URLS__BASEURL=${SQUIDEX_PROTOCOL}://${SQUIDEX_DOMAIN}/
-      - URLS__ENFORCEHTTPS=${SQUIDEX_FORCE_HTTPS}
+      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}/
+      - EVENTSTORE__TYPE=MongoDB
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - IDENTITY__ADMINEMAIL=${SQUIDEX_ADMINEMAIL}
@@ -25,8 +25,9 @@ services:
       - IDENTITY__GITHUBSECRET=${SQUIDEX_GITHUBSECRET}
       - IDENTITY__MICROSOFTCLIENT=${SQUIDEX_MICROSOFTCLIENT}
       - IDENTITY__MICROSOFTSECRET=${SQUIDEX_MICROSOFTSECRET}
-      - LETSENCRYPT_HOST=${SQUIDEX_DOMAIN}
-      - LETSENCRYPT_EMAIL=${SQUIDEX_ADMINEMAIL}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/healthz"]
+      start_period: 60s
     depends_on:
       - squidex_mongo
     volumes:

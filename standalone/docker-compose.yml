@@ -1,7 +1,7 @@
-version: '2.1'
+version: '2.3'
 services:
   squidex_mongo:
-    image: mongo:latest
+    image: mongo:4.4.1
     volumes:
       - /etc/squidex/mongo/db:/data/db
     networks:
@@ -9,12 +9,10 @@ services:
     restart: unless-stopped
 
   squidex_squidex:
-    image: "squidex/squidex:latest"
-    ports:
-      - "5000:80"
+    image: "squidex/squidex:dev-5045"
     environment:
-      - URLS__BASEURL=${SQUIDEX_PROTOCOL}://${SQUIDEX_DOMAIN}/
-      - URLS__ENFORCEHTTPS=${SQUIDEX_FORCE_HTTPS}
+      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}/
+      - EVENTSTORE__TYPE=MongoDB
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - IDENTITY__ADMINEMAIL=${SQUIDEX_ADMINEMAIL}
@@ -25,9 +23,10 @@ services:
       - IDENTITY__GITHUBSECRET=${SQUIDEX_GITHUBSECRET}
       - IDENTITY__MICROSOFTCLIENT=${SQUIDEX_MICROSOFTCLIENT}
       - IDENTITY__MICROSOFTSECRET=${SQUIDEX_MICROSOFTSECRET}
-      - LETSENCRYPT_HOST=${SQUIDEX_DOMAIN}
-      - LETSENCRYPT_EMAIL=${SQUIDEX_ADMINEMAIL}
-      - VIRTUAL_HOST=${SQUIDEX_DOMAIN}
+      - ASPNETCORE_URLS=http://+:5000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/healthz"]
+      start_period: 60s
     depends_on:
       - squidex_mongo
     volumes:
@@ -37,32 +36,18 @@ services:
     restart: unless-stopped
 
   squidex_proxy:
-    image: squidex/nginx-proxy
+    image: squidex/caddy-proxy
     ports:
       - "80:80"
       - "443:443"
+    environment:
+      - SITE_ADDRESS=${SQUIDEX_DOMAIN}
+      - SITE_SERVER="squidex_squidex:5000"
     volumes:
-      - /etc/squidex/nginx/vhost.d:/etc/nginx/vhost.d
-      - /etc/squidex/nginx/certs:/etc/nginx/certs:ro
-      - /etc/squidex/nginx/html:/usr/share/nginx/html
-      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /etc/squidex/caddy/data:/data
+      - /etc/squidex/caddy/config:/config
     depends_on:
       - squidex_squidex
-    networks:
-      - internal
-    labels:
-      - com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy
-    restart: unless-stopped
-
-  squidex_encrypt:
-    image: jrcs/letsencrypt-nginx-proxy-companion
-    volumes:
-      - /etc/squidex/nginx/certs:/etc/nginx/certs:rw
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    volumes_from:
-      - squidex_proxy
-    depends_on:
-      - squidex_proxy
     networks:
       - internal
     restart: unless-stopped
