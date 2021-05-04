@@ -1,8 +1,8 @@
 version: '2.1'
 services:
   squidex_mongo:
-    image: mongo:4.4.1
-    command: mongod --replSet "rs0"
+    image: mongo:latest
+    command: mongod
     ports:
       - "27017:27017"
     restart: always
@@ -17,20 +17,4 @@ services:
       discovery.type: single-node
       http.cors.enabled: "true"
       http.cors.allow-origin: "*"
-    restart: always
-
-  squidex_eventstore:
-    image: eventstore/eventstore
-    ports:
-      - "2113:2113"
-      - "1113:1113"
-    restart: always
-    environment:
-      - "EVENTSTORE_INSECURE=true"
-      - "EVENTSTORE_RUN_PROJECTIONS=All"
-    
-  squidex_redis:
-    image: redis
-    ports:
-      - "6379:6379"
     restart: always
