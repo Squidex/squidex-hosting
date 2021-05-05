@@ -1,8 +1,8 @@
 ![Squidex Logo](https://raw.githubusercontent.com/Squidex/squidex/master/media/logo-wide.png "Squidex")
 
-# Squidex Samples
+# Squidex Hosting
 
-Docker Definitions for Squidex
+Docker and Hosting Definitions for Squidex
 
 ## How to make feature requests, get help or report bugs? 
 
