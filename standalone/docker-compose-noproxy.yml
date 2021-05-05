@@ -13,7 +13,7 @@ services:
     ports:
       - "80:80"
     environment:
-      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}/
+      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}
       - EVENTSTORE__TYPE=MongoDB
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo

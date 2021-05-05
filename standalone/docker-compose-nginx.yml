@@ -11,7 +11,7 @@ services:
   squidex_squidex:
     image: "squidex/squidex:5"
     environment:
-      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}/
+      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}
       - EVENTSTORE__TYPE=MongoDB
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
