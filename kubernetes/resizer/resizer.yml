@@ -1,0 +1,45 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resizer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: resizer
+  template:
+    metadata:
+      labels:
+        app: resizer
+    spec:
+      containers:
+        - name: resizer
+          image: squidex/resizer:1.1.0
+          imagePullPolicy: Always
+          startupProbe:
+            httpGet:
+              path: /healthz
+              port: 80
+              scheme: HTTP
+            failureThreshold: 10
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 80
+              scheme: HTTP
+  revisionHistoryLimit: 2
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: resizer
+  labels:
+    name: resizer
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    app: resizer
+  type: ClusterIP
