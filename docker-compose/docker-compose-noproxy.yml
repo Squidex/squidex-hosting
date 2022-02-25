@@ -1,7 +1,7 @@
 version: '2.3'
 services:
   squidex_mongo:
-    image: mongo:4.4.1
+    image: mongo:5.0.6
     volumes:
       - /etc/squidex/mongo/db:/data/db
     networks:
@@ -13,7 +13,7 @@ services:
     ports:
       - "80:80"
     environment:
-      - URLS__BASEURL=https://${SQUIDEX_DOMAIN}
+      - URLS__BASEURL=http://${SQUIDEX_DOMAIN}
       - EVENTSTORE__TYPE=MongoDB
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
       - STORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo
@@ -26,7 +26,7 @@ services:
       - IDENTITY__MICROSOFTCLIENT=${SQUIDEX_MICROSOFTCLIENT}
       - IDENTITY__MICROSOFTSECRET=${SQUIDEX_MICROSOFTSECRET}
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:5000/healthz"]
+      test: ["CMD", "curl", "-f", "http://localhost:80/healthz"]
       start_period: 60s
     depends_on:
       - squidex_mongo

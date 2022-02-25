@@ -2,7 +2,6 @@ version: '2.1'
 services:
   squidex_mongo:
     image: mongo:latest
-    command: mongod
+    command: ["mongod", "--replSet", "rs0"]
     ports:
-      - "27017:27017"
-    restart: always
+      - "27018:27017"
