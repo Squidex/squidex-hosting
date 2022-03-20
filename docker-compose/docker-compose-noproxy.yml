@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
 
   squidex_squidex:
-    image: "squidex/squidex:5"
+    image: "squidex/squidex:6"
     ports:
       - "80:80"
     environment:
