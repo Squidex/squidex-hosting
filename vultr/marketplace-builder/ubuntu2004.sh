@@ -11,6 +11,13 @@ install_cloud_init latest
 
 ################################################
 ## Install your app here.
+wait_on_apt_lock
+
+chmod +x /root/install-docker.sh
+. /root/install-docker.sh
+
+# Make the script executable.
+chmod +x /var/lib/cloud/scripts/per-instance/provision.sh
 
 ################################################
 ## Prepare server snapshot for Marketplace

@@ -31,6 +31,16 @@ build {
     destination = "/root/vultr-helper.sh"
   }
 
+  provisioner "file" {
+    source = "../install-docker.sh"
+    destination = "/root/install-docker.sh"
+  }
+
+  provisioner "file" {
+    source = "../provision.sh"
+    destination = "/var/lib/cloud/scripts/per-instance/provision.sh"
+  }
+
   provisioner "shell" {
     script = "ubuntu2004.sh"
     remote_folder = "/root"

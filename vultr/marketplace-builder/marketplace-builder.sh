@@ -54,11 +54,11 @@ echo ""
 echo "Create a snapshot for which OS?"
 echo ""
 echo "0: Create all"
-echo "1: Ubuntu 20.04"
-echo "2: Debian 10"
-echo "3: CentOS 7"
-echo "4: CentOS 8"
-echo "5: Ubuntu 18.04"
+echo "1: CentOS 7 (NOT WORKING)"
+echo "2: CentOS 8 (NOT WORKING)"
+echo "3: Debian 10"
+echo "4: Ubuntu 18.04"
+echo "5: Ubuntu 20.04"
 echo ""
 
 read -r -p "Enter the OS number, or another key to quit: " OSVER
@@ -72,26 +72,8 @@ else
 fi
 
 #################################
-## Ubuntu 20.04
-if [[ "${OSVER}" == "1" || "${OSVER}" == "0" ]]; then
-  export PACKER_LOG=1
-  export PACKER_LOG_PATH=packer-Ubuntu2004.log
-  packer init ubuntu2004.pkr.hcl
-  packer build ubuntu2004.pkr.hcl
-fi
-
-#################################
-## Debian 10
-if [[ "${OSVER}" == "2" || "${OSVER}" == "0" ]]; then
-  export PACKER_LOG=1
-  export PACKER_LOG_PATH=packer-Debian10.log
-  packer init debian10.pkr.hcl
-  packer build debian10.pkr.hcl
-fi
-
-#################################
 ## CentOS 7
-if [[ "${OSVER}" == "3" || "${OSVER}" == "0" ]]; then
+if [[ "${OSVER}" == "1" || "${OSVER}" == "0" ]]; then
   export PACKER_LOG=1
   export PACKER_LOG_PATH=packer-CentOS7.log
   packer init centos7.pkr.hcl
@@ -100,7 +82,7 @@ fi
 
 #################################
 ## CentOS 8
-if [[ "${OSVER}" == "4" || "${OSVER}" == "0" ]]; then
+if [[ "${OSVER}" == "2" || "${OSVER}" == "0" ]]; then
   export PACKER_LOG=1
   export PACKER_LOG_PATH=packer-CentOS8.log
   packer init centos8.pkr.hcl
@@ -108,10 +90,28 @@ if [[ "${OSVER}" == "4" || "${OSVER}" == "0" ]]; then
 fi
 
 #################################
+## Debian 10
+if [[ "${OSVER}" == "3" || "${OSVER}" == "0" ]]; then
+  export PACKER_LOG=1
+  export PACKER_LOG_PATH=packer-Debian10.log
+  packer init debian10.pkr.hcl
+  packer build debian10.pkr.hcl
+fi
+
 ## Ubuntu 18.04
-if [[ "${OSVER}" == "5" || "${OSVER}" == "0" ]]; then
+if [[ "${OSVER}" == "4" || "${OSVER}" == "0" ]]; then
   export PACKER_LOG=1
   export PACKER_LOG_PATH=packer-Ubuntu1804.log
   packer init ubuntu1804.pkr.hcl
   packer build ubuntu1804.pkr.hcl
 fi
+
+#################################
+## Ubuntu 20.04
+if [[ "${OSVER}" == "5" || "${OSVER}" == "0" ]]; then
+  export PACKER_LOG=1
+  export PACKER_LOG_PATH=packer-Ubuntu2004.log
+  packer init ubuntu2004.pkr.hcl
+  packer build ubuntu2004.pkr.hcl
+fi
+#################################
