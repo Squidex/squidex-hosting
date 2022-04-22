@@ -6,6 +6,7 @@ echo "STEP 1: Install Docker"
 # Download script
 curl -fsSL https://get.docker.com -o get-docker.sh
 
+# Allow unset variables again
 set +u
 
 # Execute script

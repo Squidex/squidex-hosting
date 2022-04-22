@@ -11,7 +11,7 @@ install_cloud_init latest
 
 ################################################
 ## Install your app here.
-flock /var/lib/apt/lists/lock-frontend
+wait_on_apt_lock
 
 chmod +x /root/install-docker.sh
 . /root/install-docker.sh
