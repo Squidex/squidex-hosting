@@ -1,1 +1,6 @@
 *.log
+
+.vs
+
+obj
+bin
