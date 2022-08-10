@@ -1,5 +1,0 @@
-apiVersion: v1
-appVersion: "3.3.0"
-description: Squidex CMS
-name: squidex
-version: 1.0.0

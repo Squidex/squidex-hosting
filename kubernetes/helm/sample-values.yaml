@@ -1,6 +1,0 @@
-env:
-  URLS__BASEURL: http://squidex.local/
-  LETSENCRYPT_HOST: http://squidex.local/
-  LETSENCRYPT_EMAIL: admin@example.com
-  IDENTITY__ADMINEMAIL: admin@example.com
-  IDENTITY__ADMINPASSWORD: Abc12345!)
