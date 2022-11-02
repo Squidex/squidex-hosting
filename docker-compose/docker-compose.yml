@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   squidex_mongo:
-    image: mongo
+    image: "mongo:6"
     volumes:
       - /etc/squidex/mongo/db:/data/db
     networks:
@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
 
   squidex_squidex:
-    image: "squidex/squidex:latest"
+    image: "squidex/squidex:7"
     environment:
       - URLS__BASEURL=https://${SQUIDEX_DOMAIN}
       - EVENTSTORE__TYPE=MongoDB
