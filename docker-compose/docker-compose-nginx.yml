@@ -1,7 +1,7 @@
 version: '2.3'
 services:
   squidex_mongo:
-    image: mongo:5.0.6
+    image: mongo:6
     volumes:
       - /etc/squidex/mongo/db:/data/db
     networks:
@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
 
   squidex_squidex:
-    image: "squidex/squidex:6"
+    image: "squidex/squidex:7"
     environment:
       - URLS__BASEURL=https://${SQUIDEX_DOMAIN}
       - EVENTSTORE__TYPE=MongoDB
@@ -26,7 +26,7 @@ services:
       - LETSENCRYPT_HOST=${SQUIDEX_DOMAIN}
       - LETSENCRYPT_EMAIL=${SQUIDEX_ADMINEMAIL}
       - VIRTUAL_HOST=${SQUIDEX_DOMAIN}
-      - ASPNETCORE_URLS=http://+:5000
+        #- ASPNETCORE_URLS=http://+:5000
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/healthz"]
       start_period: 60s
