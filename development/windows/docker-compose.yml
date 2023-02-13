@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+  squidex_mongo:
+    image: mongo:4.2
+    command: mongod --port 27018 --bind_ip_all
+    ports:
+      - "27018:27018"
+    restart: always
