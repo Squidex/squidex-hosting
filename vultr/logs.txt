@@ -1,0 +1,5152 @@
+{
+  "logLevel": "Warning",
+  "message": "Note: Silo not running with ServerGC turned on - recommend checking app config : \u003Cconfiguration\u003E-\u003Cruntime\u003E-\u003CgcServer enabled=\u0022true\u0022\u003E",
+  "eventId": {
+    "id": 100405
+  },
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Orleans.Runtime.Silo"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Note: Silo not running with ServerGC turned on - recommend checking app config : \u003Cconfiguration\u003E-\u003Cruntime\u003E-\u003CgcServer enabled=\u0022true\u0022\u003E",
+  "eventId": {
+    "id": 100405
+  },
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Orleans.Runtime.Silo"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Note: ServerGC only kicks in on multi-core systems (settings enabling ServerGC have no effect on single-core machines).",
+  "eventId": {
+    "id": 100405
+  },
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Orleans.Runtime.Silo"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Note: ServerGC only kicks in on multi-core systems (settings enabling ServerGC have no effect on single-core machines).",
+  "eventId": {
+    "id": 100405
+  },
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Orleans.Runtime.Silo"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Application started",
+  "environment": {
+    "applicationname": "Squidex",
+    "apps:deletepermanent": "False",
+    "aspnetcore_urls": "http://\u002B:5000",
+    "aspnet_version": "6.0.0",
+    "assets:cancache": "True",
+    "assets:defaultpagesize": "200",
+    "assets:deletepermanent": "False",
+    "assets:deleterecursive": "True",
+    "assets:folderperapp": "False",
+    "assets:maxresults": "200",
+    "assets:maxsize": "5242880",
+    "assets:resizerurl": "",
+    "assets:timeoutfind": "00:00:01",
+    "assets:timeoutquery": "00:00:05",
+    "assetstore:amazons3:accesskey": "\u003CMY_KEY\u003E",
+    "assetstore:amazons3:bucket": "squidex-test",
+    "assetstore:amazons3:bucketfolder": "squidex-assets",
+    "assetstore:amazons3:forcepathstyle": "False",
+    "assetstore:amazons3:regionname": "eu-central-1",
+    "assetstore:amazons3:secretkey": "\u003CMY_SECRET\u003E",
+    "assetstore:amazons3:serviceurl": "",
+    "assetstore:azureblob:connectionstring": "UseDevelopmentStorage=true",
+    "assetstore:azureblob:containername": "squidex-assets",
+    "assetstore:exposesourceurl": "False",
+    "assetstore:folder:path": "Assets",
+    "assetstore:ftp:password": "",
+    "assetstore:ftp:path": "Assets",
+    "assetstore:ftp:serverhost": "",
+    "assetstore:ftp:serverport": "21",
+    "assetstore:ftp:username": "",
+    "assetstore:googlecloud:bucket": "squidex-assets",
+    "assetstore:mongodb:bucket": "fs",
+    "assetstore:mongodb:configuration": "mongodb://localhost",
+    "assetstore:mongodb:database": "SquidexAssets",
+    "assetstore:type": "Folder",
+    "caching:maxsurrogatekeyssize": "0",
+    "caching:replicated:enable": "True",
+    "caching:strongetag": "False",
+    "contentroot": "/app",
+    "contents:cancache": "True",
+    "contents:defaultpagesize": "200",
+    "contents:maxresults": "200",
+    "contents:timeoutfind": "00:00:01",
+    "contents:timeoutquery": "00:00:05",
+    "diagnostics:counterstool": "/tools/dotnet-counters",
+    "diagnostics:dumptool": "/tools/dotnet-dump",
+    "diagnostics:dumptriggerinmb": "0",
+    "diagnostics:gc:threshold": "8192",
+    "diagnostics:gcdumptool": "/tools/dotnet-gcdump",
+    "diagnostics:gcumptriggerinmb": "0",
+    "diagnostics:tracetool": "/tools/dotnet-trace",
+    "dotnet_running_in_container": "true",
+    "dotnet_version": "6.0.0",
+    "email:notifications:existinguserbody": "Dear User,\r\n\r\n$ASSIGNER_NAME ($ASSIGNER_EMAIL) has invited you to join App $APP_NAME at Squidex Headless CMS.\r\n\r\nLogin or reload the Management UI to see the App.\r\n\r\nThank you very much,\r\nThe Squidex Team\r\n\r\n\u003C\u003CStart now!\u003E\u003E [$UI_URL]",
+    "email:notifications:existingusersubject": "[Squidex CMS] You have been invited to join App $APP_NAME",
+    "email:notifications:newuserbody": "Welcome to Squidex\r\nDear User,\r\n\r\n$ASSIGNER_NAME ($ASSIGNER_EMAIL) has invited you to join Project (also called an App) $APP_NAME at Squidex Headless CMS. Login with your Github, Google or Microsoft credentials to create a new user account and start editing content now.\r\n\r\nThank you very much,\r\nThe Squidex Team\r\n\r\n\u003C\u003CStart now!\u003E\u003E [$UI_URL]",
+    "email:notifications:newusersubject": "You have been invited to join Project $APP_NAME at Squidex CMS",
+    "email:notifications:usagebody": "Dear User,\r\n\r\nYou you are about to reach your usage limit for App $APP_NAME at Squidex Headless CMS.\r\n\r\nYou have already used $API_CALLS of your monthy limit of $API_CALLS_LIMIT API calls.\r\n\r\nPlease check your clients or upgrade your plan!\r\n\r\n\u003C\u003CGo to Squidex!\u003E\u003E [$UI_URL]",
+    "email:notifications:usagesubject": "[Squidex CMS] You you are about to reach your usage limit for App $APP_NAME",
+    "email:smtp:enablessl": "True",
+    "email:smtp:password": "",
+    "email:smtp:port": "587",
+    "email:smtp:sender": "hello@squidex.io",
+    "email:smtp:server": "",
+    "email:smtp:username": "",
+    "eventpublishers:alltorabbitmq:configuration": "amqp://guest:guest@localhost/",
+    "eventpublishers:alltorabbitmq:enabled": "False",
+    "eventpublishers:alltorabbitmq:eventsfilter": ".*",
+    "eventpublishers:alltorabbitmq:exchange": "squidex",
+    "eventpublishers:alltorabbitmq:type": "RabbitMq",
+    "eventstore:mongodb:configuration": "mongodb://squidex_mongo",
+    "eventstore:mongodb:database": "Squidex",
+    "eventstore:type": "MongoDB",
+    "exposedconfiguration:version": "squidex:version",
+    "fulltext:azure:apikey": "",
+    "fulltext:azure:indexname": "squidex",
+    "fulltext:azure:serviceendpoint": "https://\u003Cname\u003E.search.windows.net",
+    "fulltext:elastic:configuration": "http://localhost:9200",
+    "fulltext:elastic:indexname": "squidex",
+    "fulltext:type": "default",
+    "home": "/root",
+    "hostname": "790c16824612",
+    "identity:adminclientid": "",
+    "identity:adminclientsecret": "",
+    "identity:adminemail": "",
+    "identity:adminpassword": "",
+    "identity:adminrecreate": "False",
+    "identity:allowpasswordauth": "True",
+    "identity:githubclient": "",
+    "identity:githubsecret": "",
+    "identity:googleclient": "",
+    "identity:googlesecret": "",
+    "identity:lockautomatically": "False",
+    "identity:microsoftclient": "",
+    "identity:microsoftsecret": "",
+    "identity:microsofttenant": "",
+    "identity:multipledomains": "False",
+    "identity:oidcauthority": "",
+    "identity:oidcclient": "",
+    "identity:oidcgetclaimsfromuserinfoendpoint": "False",
+    "identity:oidcmetadataaddress": "",
+    "identity:oidcname": "OIDC",
+    "identity:oidconsignoutredirecturl": "",
+    "identity:oidcresponsetype": "id_token",
+    "identity:oidcscopes:0": "email",
+    "identity:oidcsecret": "",
+    "identity:privacyurl": "https://squidex.io/privacy",
+    "identity:showpii": "True",
+    "identity:suppressxframeoptionsheader": "False",
+    "kafka:bootstrapservers": "",
+    "languages:custom": "",
+    "logging:applicationinsights:connectionstring": "InstrumentationKey=[key];IngestionEndpoint=https://[datacenter].in.applicationinsights.azure.com/",
+    "logging:applicationinsights:enabled": "False",
+    "logging:colors": "True",
+    "logging:console:formattername": "Json",
+    "logging:human": "True",
+    "logging:level": "Information",
+    "logging:logrequests": "True",
+    "logging:otlp:enabled": "False",
+    "logging:otlp:endpoint": "",
+    "logging:stackdriver:enabled": "False",
+    "logging:storeenabled": "True",
+    "logging:storeretentionindays": "90",
+    "mode:isreadonly": "False",
+    "news:appname": "squidex-website",
+    "news:clientid": "squidex-website:default",
+    "news:clientsecret": "QGgqxd7bDHBTEkpC6fj8sbdPWgZrPrPfr3xzb3LKoec=",
+    "notifo:apikey": "",
+    "notifo:apiurl": "https://app.notifo.io",
+    "notifo:appid": "",
+    "orleans:clustering": "Development",
+    "orleans:gatewayport": "40000",
+    "orleans:ipaddress": "",
+    "orleans:kubernetes": "False",
+    "orleans:siloport": "11111",
+    "orleans:useazurenetwork": "True",
+    "path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "plugins:0": "Squidex.Extensions.dll",
+    "rebuild:apps": "False",
+    "rebuild:assetfiles": "False",
+    "rebuild:assets": "False",
+    "rebuild:contents": "False",
+    "rebuild:rules": "False",
+    "rebuild:schemas": "False",
+    "robots:text": "User-agent: *\nAllow: /api/assets/*",
+    "rules:executiontimeoutinseconds": "10",
+    "running_in_container": "true",
+    "scripting:timeoutexecution": "00:00:04",
+    "scripting:timeoutscript": "00:00:00.200",
+    "store:mongodb:atlas:clustername": "",
+    "store:mongodb:atlas:fulltextenabled": "False",
+    "store:mongodb:atlas:groupid": "",
+    "store:mongodb:atlas:privatekey": "",
+    "store:mongodb:atlas:publickey": "",
+    "store:mongodb:configuration": "mongodb://squidex_mongo",
+    "store:mongodb:contentdatabase": "SquidexContent",
+    "store:mongodb:database": "Squidex",
+    "store:type": "MongoDb",
+    "templates:repositories:0:contenturl": "https://raw.githubusercontent.com/Squidex/templates/main",
+    "templates:repositories:0:giturl": "https://github.com/Squidex/templates.git",
+    "translations:deepl:authkey": "",
+    "translations:deepl:mapping:zh-cn": "zh-CN",
+    "translations:deepl:mapping:zh-tw": "zh-TW",
+    "translations:googlecloud:projectid": "",
+    "twitter:clientid": "QZhb3HQcGCvE6G8yNNP9ksNet",
+    "twitter:clientsecret": "Pdu9wdN72T33KJRFdFy1w4urBKDRzIyuKpc0OItQC2E616DuZD",
+    "ui:google:analyticsid": "UA-99989790-2",
+    "ui:hidedatebuttons": "False",
+    "ui:hidedatetimemodebutton": "False",
+    "ui:hidenews": "False",
+    "ui:hideonboarding": "False",
+    "ui:map:googlemaps:key": "AIzaSyB_Z8l3nwUxZhMJykiDUJy6bSHXXlwcYMg",
+    "ui:map:type": "OSM",
+    "ui:onlyadminscancreateapps": "False",
+    "ui:redirecttologin": "False",
+    "ui:referencesdropdownitemcount": "100",
+    "ui:regexsuggestions:email": "^[a-zA-Z0-9.!#$%\u0026\u2019*\u002B\\/=?^_\u0060{|}~-]\u002B@[a-zA-Z0-9-]\u002B(?:.[a-zA-Z0-9-]\u002B)*$",
+    "ui:regexsuggestions:phone": "^\\(*\\\u002B*[1-9]{0,3}\\)*-*[1-9]{0,3}[-. /]*\\(*[2-9]\\d{2}\\)*[-. /]*\\d{3}[-. /]*\\d{4} *e*x*t*\\.* *\\d{0,4}$",
+    "ui:regexsuggestions:slug": "^[a-z0-9]\u002B(\\-[a-z0-9]\u002B)*$",
+    "ui:regexsuggestions:url": "^(?:http(s)?:\\/\\/)?[\\w.-]\u002B(?:\\.[\\w\\.-]\u002B)\u002B[\\w\\-\\._~:\\/?#%[\\]@!\\$\u0026\u0027\\(\\)\\*\\\u002B,;=.]\u002B$",
+    "ui:showinfo": "False",
+    "urls": "http://\u002B:5000",
+    "urls:basepath": "",
+    "urls:baseurl": "https://test22.squidex.io",
+    "urls:enableforwardheaders": "True",
+    "urls:enforcehost": "False",
+    "urls:enforcehttps": "False",
+    "version": "6.0.0"
+  },
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initialize": [
+    "ValidationInitializer",
+    "Serializer (BSON)",
+    "Serializer (Orleans)",
+    "Serializer (Rules)",
+    "FolderAssetStore",
+    "LanguagesInitializer",
+    "MongoAppRepository",
+    "MongoAssetFolderRepository",
+    "MongoAssetKeyValueStore\u00601",
+    "MongoAssetRepository",
+    "MongoContentRepository",
+    "MongoEventStore",
+    "MongoHistoryEventRepository",
+    "MongoMigrationStatus",
+    "MongoRequestLogRepository",
+    "MongoRoleStore",
+    "MongoRuleEventRepository",
+    "MongoRuleRepository",
+    "MongoSchemaRepository",
+    "MongoSchemasHash",
+    "MongoTextIndex",
+    "MongoTextIndexerState",
+    "MongoUsageRepository",
+    "MongoUserStore",
+    "TokenStoreInitializer",
+    "CreateAdminInitializer",
+    "Diagnoser"
+  ],
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "ValidationInitializer",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "Serializer (BSON)",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "Serializer (Orleans)",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "Serializer (Rules)",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Initialized with /app/Assets",
+  "folder": "/app/Assets",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Assets.FolderAssetStore"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Initialized with /app/Assets",
+  "folder": "/app/Assets",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Assets.FolderAssetStore"
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "FolderAssetStore",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "LanguagesInitializer",
+  "timestamp": "2022-07-13T15:14:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoAppRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoAssetFolderRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoAssetKeyValueStore\u00601",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoAssetRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoContentRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoEventStore",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoHistoryEventRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoMigrationStatus",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoRequestLogRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoRoleStore",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoRuleEventRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoRuleRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoSchemaRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoSchemasHash",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoTextIndex",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoTextIndexerState",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoUsageRepository",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "MongoUserStore",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "TokenStoreInitializer",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "CreateAdminInitializer",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "initializedSystem": "Diagnoser",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StopEventConsumers started.",
+  "migration": "Migrations.Migrations.StopEventConsumers",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StopEventConsumers started.",
+  "migration": "Migrations.Migrations.StopEventConsumers",
+  "timestamp": "2022-07-13T15:14:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StopEventConsumers completed after 475ms.",
+  "migration": "Migrations.Migrations.StopEventConsumers",
+  "time": "475",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StopEventConsumers completed after 475ms.",
+  "migration": "Migrations.Migrations.StopEventConsumers",
+  "time": "475",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StartEventConsumers started.",
+  "migration": "Migrations.Migrations.StartEventConsumers",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StartEventConsumers started.",
+  "migration": "Migrations.Migrations.StartEventConsumers",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StartEventConsumers completed after 12ms.",
+  "migration": "Migrations.Migrations.StartEventConsumers",
+  "time": "12",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Migration Migrations.Migrations.StartEventConsumers completed after 12ms.",
+  "migration": "Migrations.Migrations.StartEventConsumers",
+  "time": "12",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Infrastructure.Migrations.Migrator"
+}
+
+{
+  "logLevel": "Information",
+  "start": [
+    "IAssetCleanupGrain",
+    "IContentSchedulerGrain",
+    "IEventConsumerManagerGrain",
+    "IRuleDequeuerGrain",
+    "IUsageTrackerGrain"
+  ],
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "startedSystem": "IAssetCleanupGrain",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "startedSystem": "IContentSchedulerGrain",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "startedSystem": "IEventConsumerManagerGrain",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "startedSystem": "IRuleDequeuerGrain",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "startedSystem": "IUsageTrackerGrain",
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Plugins loaded.",
+  "action": "pluginsLoaded",
+  "status": "Completed",
+  "errors": [],
+  "plugins": [
+    "Squidex.Extensions.Validation.CompositeUniqueValidatorPlugin",
+    "Squidex.Extensions.Text.ElasticSearch.ElasticSearchTextPlugin",
+    "Squidex.Extensions.Text.Azure.AzureTextPlugin",
+    "Squidex.Extensions.Samples.AssetStore.MemoryAssetStorePlugin",
+    "Squidex.Extensions.Assets.Azure.AzureMetadataSourcePlugin",
+    "Squidex.Extensions.APM.Stackdriver.StackdriverPlugin",
+    "Squidex.Extensions.APM.Datadog.OtlpPlugin",
+    "Squidex.Extensions.APM.ApplicationInsights.ApplicationInsightsPlugin",
+    "Squidex.Extensions.Actions.Webhook.WebhookPlugin",
+    "Squidex.Extensions.Actions.Twitter.TwitterPlugin",
+    "Squidex.Extensions.Actions.Slack.SlackPlugin",
+    "Squidex.Extensions.Actions.SignalR.SignalRPlugin",
+    "Squidex.Extensions.Actions.Script.ScriptPlugin",
+    "Squidex.Extensions.Actions.Prerender.PrerenderPlugin",
+    "Squidex.Extensions.Actions.Notification.NotificationPlugin",
+    "Squidex.Extensions.Actions.Medium.MediumPlugin",
+    "Squidex.Extensions.Actions.Kafka.KafkaPlugin",
+    "Squidex.Extensions.Actions.Fastly.FastlyPlugin",
+    "Squidex.Extensions.Actions.Email.EmailPlugin",
+    "Squidex.Extensions.Actions.ElasticSearch.ElasticSearchPlugin",
+    "Squidex.Extensions.Actions.Discourse.DiscoursePlugin",
+    "Squidex.Extensions.Actions.CreateContent.CreateContentPlugin",
+    "Squidex.Extensions.Actions.Comment.CommentPlugin",
+    "Squidex.Extensions.Actions.AzureQueue.AzureQueuePlugin",
+    "Squidex.Extensions.Actions.Algolia.AlgoliaPlugin"
+  ],
+  "timestamp": "2022-07-13T15:14:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Now listening on: http://[::]:5000",
+  "eventId": {
+    "id": 14,
+    "name": "ListeningOnAddress"
+  },
+  "address": "http://[::]:5000",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Now listening on: http://[::]:5000",
+  "eventId": {
+    "id": 14,
+    "name": "ListeningOnAddress"
+  },
+  "address": "http://[::]:5000",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Application started. Press Ctrl\u002BC to shut down.",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Application started. Press Ctrl\u002BC to shut down.",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Hosting environment: Production",
+  "envName": "Production",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Hosting environment: Production",
+  "envName": "Production",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Content root path: /app",
+  "contentRoot": "/app",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Content root path: /app",
+  "contentRoot": "/app",
+  "timestamp": "2022-07-13T15:14:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Microsoft.Hosting.Lifetime"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 313,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:28Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d836cd3844bb18840960522a8c63e6f5-14c703d3a593c425-01",
+    "requestPath": "/index.html",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 22,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-6994f4e58109fb1b164b1f79d7111172-65d6edbb6dcf057e-01",
+    "requestPath": "/scripts/outdatedbrowser/outdatedbrowser.min.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 17,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-fe6b8cb8f782778edc40f4be21bf616e-f34ea28ff3da8c6e-01",
+    "requestPath": "/scripts/outdatedbrowser/outdatedbrowser.min.css",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 20,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-ec496161524e4a50a10130482432a159-ee90e21dddbefd68-01",
+    "requestPath": "/runtime.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-1d2fced35b8368bf55e9958aea279b84-09ed78b498f0f2ca-01",
+    "requestPath": "/polyfills.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-52302c912b861494aae8720a9aa0af3f-fd832453286ddc57-01",
+    "requestPath": "/images/loader.svg",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 12,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-080d45f70358b084a2b1d168c22b6f22-38c8ed29c68d5c0d-01",
+    "requestPath": "/styles.css",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 44,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-94be2e9db4b470d80f18ac96e8b279d7-4961fcf8e9dd23cb-01",
+    "requestPath": "/main.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:29Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-657049c51c4dac2a9607b2aca0fecb1e-756938403bc8786e-01",
+    "requestPath": "/417.1feaa3a6d68f3bc0.chunk.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject with ID 489427d9-cbe1-4ecd-a17c-8e5695c7317b in 102.",
+  "type": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject",
+  "time": "102",
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-17e3f25829bd3243e40cf59ad86c2448-4d4f15a25ae58a95-01",
+    "requestPath": "/api/apps",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetApps",
+      "controller": "Apps"
+    }
+  },
+  "category": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject with ID 489427d9-cbe1-4ecd-a17c-8e5695c7317b in 102.",
+  "type": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject",
+  "time": "102",
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-17e3f25829bd3243e40cf59ad86c2448-4d4f15a25ae58a95-01",
+    "requestPath": "/api/apps",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetApps",
+      "controller": "Apps"
+    }
+  },
+  "category": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-2ba06fba191bdcb4e038fe18c41e8c71-2692a4efe3219123-01",
+    "requestPath": "/favicon.ico",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 470,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-17e3f25829bd3243e40cf59ad86c2448-c4a42dc530afd040-01",
+    "requestPath": "/api/apps",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 17,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-09f00693080c4dfff7099382622b8b66-867d23e0590ad586-01",
+    "requestPath": "/api/ui/settings",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 27,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-fd5dc506609851b409663354d9fe3c71-f290a9dac001db07-01",
+    "requestPath": "/api",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 82,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-95a54fd563c3b6981642c00b51dec076-3315eb9a9a885e18-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/picture",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:31Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f8984f145c7e34ca2415941d70f520fc-3cdb178a6cdcc477-01",
+    "requestPath": "/icomoon.3f6129e98d46c365.ttf",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:31Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-11791f8841eae78fdb10a3b3a17f9e68-80b61e71d9f0ed99-01",
+    "requestPath": "/images/add-app.svg",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1894,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-0a9cb268d3cc6d35464006797e1c6098-4a7af1b0e569086c-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 2219.1582ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "2219.1582",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 2219.1582ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "2219.1582",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 2258.5544ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "2258.5544",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 2258.5544ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "2258.5544",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-af39d63273f4f381-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2309,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3043bd0b5b6ed864a9b6a4ef41e9c0c3-000dcf338ea60d92-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 11,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-8ed2bfa4cad0a63127066395ac740195-c64af94f66ce27e0-01",
+    "requestPath": "/images/add-template.svg",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2423,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-459a48ac5a93d097d27610844eafac56-56161f60bfa4041f-01",
+    "requestPath": "/api/news/features",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:34Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b9423bc97a5c44a49edd68d298d29963-98c26976949a5c59-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 5,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:38Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-0fa37b6b865997acb13fd3ad51839931-6808ad14b0ee1c26-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:42Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-cc16d16d82f92e616ea3caa67a2f9782-400b634969ddc26a-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:44Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d06587f4afb30ac09cda7b854a537cb4-b23e5818b6788ae3-01",
+    "requestPath": "/840.1feaa3a6d68f3bc0.chunk.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 29,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:44Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-e0648ad81a6e9013f98aedf9ce383c55-eb155a9e5ca451b6-01",
+    "requestPath": "/api/user-management",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 5,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:46Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3397f9da0bfffbcd6d058ea80702808d-d960e1e1e75f87e9-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 33,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:46Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-606143f241afff4ea40527442da3b5d9-5590b4db3a5864be-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 5,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:48Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-bb7fdd7ac9c765bf6bc6838cdaa0b737-196ba84aea81c6cb-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Backup with job id 4ce26aa7-4924-485d-80fd-9d2f1a6508a2 with from URL \u0027https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a\u0027 started.",
+  "backupId": "4ce26aa7-4924-485d-80fd-9d2f1a6508a2",
+  "url": "https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a",
+  "timestamp": "2022-07-13T15:14:49Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d675049bfa4803f921ef736509d43989-6698e859044e45c1-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "POST",
+    "routeValues": {
+      "area": "api",
+      "action": "PostRestoreJob",
+      "controller": "Restore"
+    }
+  },
+  "category": "Squidex.Domain.Apps.Entities.Backup.RestoreGrain"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Backup with job id 4ce26aa7-4924-485d-80fd-9d2f1a6508a2 with from URL \u0027https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a\u0027 started.",
+  "backupId": "4ce26aa7-4924-485d-80fd-9d2f1a6508a2",
+  "url": "https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a",
+  "timestamp": "2022-07-13T15:14:49Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d675049bfa4803f921ef736509d43989-6698e859044e45c1-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "POST",
+    "routeValues": {
+      "area": "api",
+      "action": "PostRestoreJob",
+      "controller": "Restore"
+    }
+  },
+  "category": "Squidex.Domain.Apps.Entities.Backup.RestoreGrain"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 100,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:49Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d675049bfa4803f921ef736509d43989-7ee2708ff0332910-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "POST"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-94d9323bb558c74e723ed0a6a83a09e6-826fa3fae8f7a284-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 14,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-8f80314cb0df9cd41b908aa6aaa01214-c716adde62037da7-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 13,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:52Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-5eddcbeac6393c68feb161531acd46dd-b4a94ac85a6be4d4-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 7,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:54Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b4e0bbdece2f5c49452230e7242814f0-30438dd0a9b34090-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 181,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:55Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-609fd894cb8588ebc3715598d434781a-f2622d125d3cf1ae-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1000,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:58Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-759c4da1385bf13a84e5aac1d77bf4eb-f87ab8eb475782ce-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 8,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:14:58Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-745cee692f5f204906ad9ac82fe4984f-a05ccf47536cb54e-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 13,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:00Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-950941b7ec75e4fb61d222b305906570-a7f0d9ffeeeef14c-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:00Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-73d34336f80ebd9bd67ce27841ff5049-c4a43a7615780013-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 76,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:02Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-06d14b7debb004ab1f8880d251a0b903-e52c28840c3f6895-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 165,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:03Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-69b7b01d6cf508272ed3b8c1e41b698e-f32ee255c36d0439-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 55,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:04Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-6e413bebac770af52454b6bff5120c95-da88e47c3a82687e-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:06Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-aae46040c85278dd71a55872b4985449-92f0c2252885e337-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:06Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-38e9d765899d93a2ec6e509f89d54d74-94286a60f2f07ff9-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 347,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:09Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-5b381f500d66e755dd3817e7a46bf0d0-d0c602f76c9c6003-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:10Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-29223efc57323262e5183bc5bb092c48-e31f39925e9c35d6-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2131,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f96a7583db87b3cf17619cfccb4c9c8d-ea79d89826023581-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-86f0798e798f64eb59fb5f75cf73cc92-5df0f567abd66a52-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 7,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-cc3b0995b1ac12e2ade93e1561d3bd2c-35e45652271ca22b-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 541,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-37eeb954b426785926673eecf27f89d2-8885dfef1b0b8977-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 28,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:18Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-7d58e659145abe43924a473d9c6ac276-ef15fdb3b78cad60-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 159,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:19Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-1b2e688128b90ba1554d0dfeb02dea72-604c7a450e3bf4c9-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2707,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:19Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-60a2ddd1736715972b915e45f932548f-d50843bfc22be3a2-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 136,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:21Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-e36bc405bd1b0a369d532eceb2eb700e-edb6e85a4a9b93f8-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:22Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-848a4ef08ef2dc86624beb7da7b755f9-720cb18121cc696a-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1292,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:24Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-6b74929b736b567e4018c4d78c034567-8173616f1158b15a-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 220,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:25Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-045bae1a35b70a951feae0d90dc60d01-6a4ddb9c98a322b9-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 12,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:26Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-ff7f5d10b56af3255e3eee873d53be00-64e652a7acdb334d-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:30Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d4b52f330c7d02621162fff61d5346ee-87ed6f9c6f9d4799-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Task [Id=1, Status=RanToCompletion] in WorkGroup [Activation: S127.0.0.1:11111:395421251*grn/Squidex.Domain.Apps.Entities.Backup.RestoreGrain/0\u002BDefault@5fbb40b9 #GrainType=Squidex.Domain.Apps.Entities.Backup.RestoreGrain Placement=RandomPlacement State=Valid] took elapsed time 0:00:06.6525174 for execution, which is longer than 00:00:05. Running on thread 29",
+  "eventId": {
+    "id": 101215
+  },
+  "task": "[Id=1, Status=RanToCompletion]",
+  "grainContext": "[Activation: S127.0.0.1:11111:395421251*grn/Squidex.Domain.Apps.Entities.Backup.RestoreGrain/0\u002BDefault@5fbb40b9 #GrainType=Squidex.Domain.Apps.Entities.Backup.RestoreGrain Placement=RandomPlacement State=Valid]",
+  "duration": "0:00:06.6525174",
+  "turnWarningLengthThreshold": "00:00:05",
+  "thread": "29",
+  "timestamp": "2022-07-13T15:15:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Orleans.Runtime.Scheduler.WorkItemGroup"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Task [Id=1, Status=RanToCompletion] in WorkGroup [Activation: S127.0.0.1:11111:395421251*grn/Squidex.Domain.Apps.Entities.Backup.RestoreGrain/0\u002BDefault@5fbb40b9 #GrainType=Squidex.Domain.Apps.Entities.Backup.RestoreGrain Placement=RandomPlacement State=Valid] took elapsed time 0:00:06.6525174 for execution, which is longer than 00:00:05. Running on thread 29",
+  "eventId": {
+    "id": 101215
+  },
+  "task": "[Id=1, Status=RanToCompletion]",
+  "grainContext": "[Activation: S127.0.0.1:11111:395421251*grn/Squidex.Domain.Apps.Entities.Backup.RestoreGrain/0\u002BDefault@5fbb40b9 #GrainType=Squidex.Domain.Apps.Entities.Backup.RestoreGrain Placement=RandomPlacement State=Valid]",
+  "duration": "0:00:06.6525174",
+  "turnWarningLengthThreshold": "00:00:05",
+  "thread": "29",
+  "timestamp": "2022-07-13T15:15:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Orleans.Runtime.Scheduler.WorkItemGroup"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 17,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-6876571a7010f499b32949270c821f27-9272e3b2d9b9f0d9-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 6027,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-c51111bb6c6cdcd6fd76fcc416cb2f96-f1764fa5f1f633bd-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4028,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d293bd4fd1d30876df6f519539075cec-cde481383da3c2c1-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2031,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:32Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-5b9d6f720c2b1c0ced766b75d850bed6-6ed07ee39f6f3093-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:34Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-c39b87529482e73eb5643f6e3401c6a2-8349fd530ecd1ce3-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 896,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:37Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-e2caf26cb7ae928129890f4fc731ddcd-d7a763b239484894-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2905,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:37Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f511239546415a1a14890fa54509af79-2124bfe9bc3216f3-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:38Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-e54f55a7241b1969c635b7540d84799c-d0560472c5e15476-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--5410dc6c-52de-4730-aca9-ed347bfb22fd in 131.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "131",
+  "timestamp": "2022-07-13T15:15:38Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--5410dc6c-52de-4730-aca9-ed347bfb22fd in 131.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "131",
+  "timestamp": "2022-07-13T15:15:38Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 12,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:38Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-44d31bdced0ddeedd1a06fe590419ba2-4b2430f367ed4f4f-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--ef41533e-d35f-4991-83a8-cb86e9576987 in 46.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "46",
+  "timestamp": "2022-07-13T15:15:40Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--ef41533e-d35f-4991-83a8-cb86e9576987 in 46.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "46",
+  "timestamp": "2022-07-13T15:15:40Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 5,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:40Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f6a5499fbcbfa831f12719cdf0b08dcb-2fcaca67e3925297-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:42Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-112ff317bab8b3c0fd5e67defc0e503d-00bc4bd9b183db27-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:42Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-3d34b11ce5fe2c4178affbb532f50b2d-c6994367038b43c9-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:44Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-870d07ea477ee5569bc9b909d3f68aaa-0188e36373afbd3c-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 10,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:46Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b466867b8108b34b39c901b4f256e3b4-dc32eec565284790-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 53,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:46Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-c08367304d21af039557b0fd5efd1a4b-58ae9329a9ba922d-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:48Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-017e3f58370007e2836213a7eaf4f019-68057ba283ade63f-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--50c51d39-3282-4515-b897-a07b1d460fc4 in 25.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "25",
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--50c51d39-3282-4515-b897-a07b1d460fc4 in 25.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "25",
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--6b46d7ea-da25-4f24-99c7-76178dc1f4cf in 12.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "12",
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--6b46d7ea-da25-4f24-99c7-76178dc1f4cf in 12.",
+  "type": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject",
+  "time": "12",
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Schemas.DomainObject.SchemaDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 15,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-8b39e4ebbe025758299ca50500dc2615-59ebffcf3f1ffc97-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 23,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-5f2e4608b30e8dd9510c472d8434ed16-a0371153766dff6e-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3 in 10.",
+  "type": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject",
+  "time": "10",
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3 in 10.",
+  "type": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject",
+  "time": "10",
+  "timestamp": "2022-07-13T15:15:50Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Apps.DomainObject.AppDomainObject"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Failed to send message within 00:00:00.1000000",
+  "time": "00:00:00.1000000",
+  "timestamp": "2022-07-13T15:15:51Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Caching.Orleans.OrleansStreamingPubSub"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Failed to send message within 00:00:00.1000000",
+  "time": "00:00:00.1000000",
+  "timestamp": "2022-07-13T15:15:51Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Caching.Orleans.OrleansStreamingPubSub"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Backup with job id 4ce26aa7-4924-485d-80fd-9d2f1a6508a2 from URL \u0027https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a\u0027 completed.",
+  "backupId": "4ce26aa7-4924-485d-80fd-9d2f1a6508a2",
+  "url": "https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a",
+  "timestamp": "2022-07-13T15:15:51Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Backup.RestoreGrain"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Backup with job id 4ce26aa7-4924-485d-80fd-9d2f1a6508a2 from URL \u0027https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a\u0027 completed.",
+  "backupId": "4ce26aa7-4924-485d-80fd-9d2f1a6508a2",
+  "url": "https://idb-editor.cmsstage.com/api/apps/idb/backups/63ee7f90-edb2-4669-aa95-77dce754263a",
+  "timestamp": "2022-07-13T15:15:51Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Backup.RestoreGrain"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 11,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:52Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-70d19c7eca73821c732ad579e653753a-1dcf9b961908d8ec-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:54Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-7aa89d1cb820cb68666e966e7dd51a7e-c84b3d5b659ce901-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:54Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d1f25ef0224013511b0626560b60c209-26ece994a3f2db27-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 12,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:56Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b95aba5e07e8a493afb3fbc1231dd2e5-78c40481e27a4e64-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:58Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-ec792a42fb3e7a1bd46d2e51d7441dda-c6dec3a5d8fd67ec-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:15:58Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-106bc23a65db88e4e0b344f3b95eef77-a6eae68579299f22-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 7,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:00Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-2cf726864e480c906621c6985924b458-67a76276b28d8dd4-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:02Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-89e9f696da76e00d0a9bfb1fff69258f-baf2f678d1c9412a-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:02Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-2ae456cf6c224eca4c53d9528e9b84b5-646e57a038b631a1-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:04Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d066fd74a463ea7348b7873b00b31cce-797ce95467195e79-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:06Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-c84244bf1dcc725f80db56f2cdea1f21-9165a5b66eb28941-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 5,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:06Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-96d509425c03f0bbd02473e8cc5bded6-d948d021276712f1-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:08Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-1f89dff067add51760f2f71d17014c76-95e9ef23907973f4-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 6,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:10Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f3c1e7d8c06968b52fa6f6b32a53378f-157808ce1f7e0fc8-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:10Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-0dfdbc0a5e458709c4ffd79fe5d667f4-37dc75d76ee5f9af-01",
+    "requestPath": "/api/apps/restore",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 24.0779ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "24.0779",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 24.0779ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "24.0779",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 31.6618ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "31.6618",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 31.6618ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "31.6618",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-fd164d8a70715639-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 45,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-42bc85057f27076f09fc66a1bcd01813-36c960f0b38dc841-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 430,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-c3e32615a5af6571ef825ab380564746-2329a2c3003b54c2-01",
+    "requestPath": "/api/news/features",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 24,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:12Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-407e4c582f8b17d4fe4dc8ea8f8be3b8-687d820c14979859-01",
+    "requestPath": "/index.html",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 23,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-e7caf7a7aa5529faaefd8a1afa24b8fe-00d6c5cbb0035bc9-01",
+    "requestPath": "/api/apps",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-29b50638d5ba12bcce88a3d6cfc0a963-36c4841d16913ec5-01",
+    "requestPath": "/api",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-961b3ffa24328948fd5451972fd39f83-8ba73ea8599333e5-01",
+    "requestPath": "/api/ui/settings",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 1,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-8dd7a6c9c665b879c02bf833a35ed381-cdb3c5d55db75e9e-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 28.7066ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "28.7066",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 28.7066ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "28.7066",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 33.9378ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "33.9378",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 33.9378ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "33.9378",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-a48fed2fb15c18bb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 36,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-f889a451042db8462b3a756121a5a723-0438dab3be32537a-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 55,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:13Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-c412344be1482173aedf69c110b8af69-284273ff692486ec-01",
+    "requestPath": "/api/news/features",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b271f16c5231d6965b1fa6321b31b41e-7b972ac5201264ab-01",
+    "requestPath": "/592.1feaa3a6d68f3bc0.chunk.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-2e1544234abff689470bd33d28633ec8-f70ffc391a6f6f6e-01",
+    "requestPath": "/908.1feaa3a6d68f3bc0.chunk.js",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Cannot find app with the given name idb.",
+  "name": "idb",
+  "timestamp": "2022-07-13T15:16:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-07f39a81f9c325332394bd035bfceebb-e4be10df38ccfcb9-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetSettings",
+      "controller": "AppSettings"
+    }
+  },
+  "category": "Squidex.Web.Pipeline.AppResolver"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Cannot find app with the given name idb.",
+  "name": "idb",
+  "timestamp": "2022-07-13T15:16:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-07f39a81f9c325332394bd035bfceebb-e4be10df38ccfcb9-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetSettings",
+      "controller": "AppSettings"
+    }
+  },
+  "category": "Squidex.Web.Pipeline.AppResolver"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 31,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:14Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-07f39a81f9c325332394bd035bfceebb-e4be10df38ccfcb9-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Cannot find app with the given name idb.",
+  "name": "idb",
+  "timestamp": "2022-07-13T15:16:16Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b18d9ce0c3a9e22e9f6ebb8ada7fc51e-888a44c3b0b0dfb2-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetSettings",
+      "controller": "AppSettings"
+    }
+  },
+  "category": "Squidex.Web.Pipeline.AppResolver"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Cannot find app with the given name idb.",
+  "name": "idb",
+  "timestamp": "2022-07-13T15:16:16Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b18d9ce0c3a9e22e9f6ebb8ada7fc51e-888a44c3b0b0dfb2-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetSettings",
+      "controller": "AppSettings"
+    }
+  },
+  "category": "Squidex.Web.Pipeline.AppResolver"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 22,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:16Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b18d9ce0c3a9e22e9f6ebb8ada7fc51e-888a44c3b0b0dfb2-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 6,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:17Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-31fe5189f9ff41d9643595879c30f6f1-7af227d884512b4c-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 13,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:21Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-73c5937ba7651441926cd17a8deb8685-f5c180398b913422-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:22Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-55e3707d0312653078115ab82889406b-f25c9da3b23ee6d9-01",
+    "requestPath": "/index.html",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 9,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b30fddbd9b60af8a004d833611970f50-10470fd1f7c13c39-01",
+    "requestPath": "/api/apps",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-99b15e69a2b6b2811fe2f8608f22956e-b40b83308c9d3751-01",
+    "requestPath": "/api/ui/settings",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b30f648b5b9f971931d35aa83d5fb970-fb228056023505a7-01",
+    "requestPath": "/api",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Start processing HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestPipelineStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Sending HTTP request GET https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "eventId": {
+    "id": 100,
+    "name": "RequestStart"
+  },
+  "httpMethod": "GET",
+  "uri": "https://raw.githubusercontent.com/Squidex/templates/main/README.md",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 13.6671ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "13.6671",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Received HTTP response headers after 13.6671ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestEnd"
+  },
+  "elapsedMilliseconds": "13.6671",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.ClientHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 16.1381ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "16.1381",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "End processing HTTP request after 16.1381ms - 200",
+  "eventId": {
+    "id": 101,
+    "name": "RequestPipelineEnd"
+  },
+  "elapsedMilliseconds": "16.1381",
+  "statusCode": "200",
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-e3499b16dad9c1eb-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetTemplates",
+      "controller": "Templates"
+    }
+  },
+  "category": "System.Net.Http.HttpClient.Default.LogicalHandler"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 17,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-235b3a53a138027555540a985fa9497c-032eada71dd5d4ed-01",
+    "requestPath": "/api/templates",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-97792c286a743ae6acb3326c6ed66a93-16aabd911fbf01da-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 55,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:23Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-ae0f780f953007044db1a9d7ef7fbcc6-2565ac4b8d642e2e-01",
+    "requestPath": "/api/news/features",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Cannot find app with the given name idb.",
+  "name": "idb",
+  "timestamp": "2022-07-13T15:16:24Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-ff95bdccc342ef4177dab4720c661714-9f43b701dbf21b4e-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetSettings",
+      "controller": "AppSettings"
+    }
+  },
+  "category": "Squidex.Web.Pipeline.AppResolver"
+}
+
+{
+  "logLevel": "Warning",
+  "message": "Cannot find app with the given name idb.",
+  "name": "idb",
+  "timestamp": "2022-07-13T15:16:24Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-ff95bdccc342ef4177dab4720c661714-9f43b701dbf21b4e-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET",
+    "routeValues": {
+      "area": "api",
+      "action": "GetSettings",
+      "controller": "AppSettings"
+    }
+  },
+  "category": "Squidex.Web.Pipeline.AppResolver"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 10,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:24Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-ff95bdccc342ef4177dab4720c661714-9f43b701dbf21b4e-01",
+    "requestPath": "/api/apps/idb/settings",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 6,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:27Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-0d7571530bb5337b9a39e9bf49a79676-f20beaa2b093062d-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:31Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-30f8e0cf2dfdb878eb1fe26df9297648-c0c3ff0122ddb2c6-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:35Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-d3930532eb2586d66d2b74ad108ad043-5ecf98d74cd941d2-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 11,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:39Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-eb1ad38a92379780de536043be19320f-f5238de24fccbe6f-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:43Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-4096e333d960c48b35e31730b925a87f-25079be5214fb23b-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 8,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:47Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-e814bb75f4c420eea15680d69ac49056-166703c3683bb8c9-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:51Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-97b80add464336d6171ec75f95d3dcb8-f1f69a664fef4560-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 0,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:55Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-76ffd3831d9e443d2fda6bf60167c4b9-73189a2bf84335d1-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--ae65f4fd-84eb-486a-a13a-7f3194943eeb in 13.",
+  "type": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject",
+  "time": "13",
+  "timestamp": "2022-07-13T15:16:56Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--ae65f4fd-84eb-486a-a13a-7f3194943eeb in 13.",
+  "type": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject",
+  "time": "13",
+  "timestamp": "2022-07-13T15:16:56Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--5c7e25a3-7a76-44f3-a6a7-3b5e276efaea in 13.",
+  "type": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject",
+  "time": "13",
+  "timestamp": "2022-07-13T15:16:56Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "Activated domain object of type Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject with ID 681089a3-2e56-4cca-a9d3-8bdc79cd32f3--5c7e25a3-7a76-44f3-a6a7-3b5e276efaea in 13.",
+  "type": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject",
+  "time": "13",
+  "timestamp": "2022-07-13T15:16:56Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "category": "Squidex.Domain.Apps.Entities.Rules.DomainObject.RuleDomainObject"
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 2,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:16:59Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b7d71efe5de50cbc3d4bd2b53e265067-e6d876cd13ecfab2-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:17:03Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-b168fa7a585edc6521fe8c724fbd6c4f-9c4b1b64e2b20e29-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:17:07Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-21c9fa30b0cacd943cf9d7a2030f6ca2-0cd865c4feaad540-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 4,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:17:11Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-9fa52cf03daf537c818052a64763b450-8097c14d107f608a-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:17:15Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-e0dd1030e1954b5648adc21447991069-73578e3ecca1a3b0-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+
+{
+  "logLevel": "Information",
+  "message": "HTTP request executed.",
+  "elapsedRequestMs": 3,
+  "filters": {
+    "userId": "628f9f2c0324fc2c63ec670b",
+    "clientId": "squidex-frontend",
+    "costs": 0
+  },
+  "timestamp": "2022-07-13T15:17:19Z",
+  "app": {
+    "name": "Squidex",
+    "version": "6.8.0.0",
+    "sessionId": "9be75a7f-5538-4038-b817-a497b931f761"
+  },
+  "web": {
+    "requestId": "00-23cd0e9ead4ab624396cbf7d423f5703-b0a1938b33e5e3c1-01",
+    "requestPath": "/api/users/628f9f2c0324fc2c63ec670b/notifications",
+    "requestMethod": "GET"
+  }
+}
+

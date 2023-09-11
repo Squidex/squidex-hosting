@@ -6,3 +6,17 @@ services:
     ports:
       - "27017:27017"
     restart: always
+
+  squidex_mongo5:
+    image: mongo:5
+    command: mongod
+    ports:
+      - "27015:27017"
+    restart: always
+
+  squidex_mongo4:
+    image: mongo:4
+    command: mongod
+    ports:
+      - "27014:27017"
+    restart: always
