@@ -1,9 +1,11 @@
 #!/bin/bash
 
+# Wait for server start
 until $(curl --output /dev/null --silent --get --fail http://localhost:8080/info); do
     printf '.'
     sleep 5
 done
+
 # Create service
 echo "Creating service"
 
