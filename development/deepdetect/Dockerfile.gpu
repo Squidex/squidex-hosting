@@ -1,4 +1,6 @@
-FROM docker.jolibrain.com/deepdetect_cpu
+ARG BASE_VERSION=required
+
+FROM docker.jolibrain.com/deepdetect_cpu:v${BASE_VERSION}
 
 USER root
 

@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0
+FROM mcr.microsoft.com/dotnet/sdk:8.0
 
 RUN apt-get update \
  && apt-get -f install \
@@ -10,4 +10,4 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
  && apt-get install -y google-chrome-unstable fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst fonts-freefont-ttf --no-install-recommends \
  && rm -rf /var/lib/apt/lists/*
 
- ENV PUPPETEER_EXECUTABLE_PATH "/usr/bin/google-chrome-unstable"
+ENV PUPPETEER_EXECUTABLE_PATH "/usr/bin/google-chrome-unstable"
