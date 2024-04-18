@@ -19,7 +19,7 @@ services:
   acme-companion:
     image: nginxproxy/acme-companion
     container_name: nginx-proxy-acme
-      environment:
+    environment:
       - DEFAULT_EMAIL=${SQUIDEX_ADMINEMAIL}
     volumes_from:
       - nginx-proxy
