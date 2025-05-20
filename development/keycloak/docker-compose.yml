@@ -1,0 +1,20 @@
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0.6
+    restart: always
+    command: "start-dev --import-realm"
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./realm:/opt/keycloak/data/import"
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      
+  postgres:
+    restart: always
+    image: "postgres"
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"

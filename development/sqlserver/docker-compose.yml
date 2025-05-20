@@ -1,0 +1,8 @@
+services:
+  squidex_sqlserver:
+    image: squidex/mssql-dev
+    ports:
+      - "1433:1433"
+    environment:
+      - SA_PASSWORD=1q2w3e!R
+      - ACCEPT_EULA=Y
