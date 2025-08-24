@@ -10,6 +10,8 @@ services:
 
   squidex_squidex:
     image: "squidex/squidex:7"
+    env_file:
+      - .env
     environment:
       - EVENTSTORE__TYPE=MongoDB
       - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://squidex_mongo

@@ -12,6 +12,8 @@ services:
     image: "squidex/squidex:7"
     ports:
       - "80:80"
+    env_file:
+      - .env
     environment:
       - URLS__BASEURL=http://${SQUIDEX_DOMAIN}
       - EVENTSTORE__TYPE=MongoDB
